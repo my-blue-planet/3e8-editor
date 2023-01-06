@@ -140,6 +140,8 @@ export class Editor implements IEditor {
       /Unexpected End of file\. Expected/, //html
       /'-' after '--' found in comment/, //html
       /Unexpected character in comment found/, //html
+      /Missing ";" before statement/, //js await
+      /\*/, //** operator
     ];
     // @ts-ignore
 
